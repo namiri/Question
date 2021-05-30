@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+.MuiMobileStepper-progress {
+  width: 100% !important;
+}
+.MuiLinearProgress-colorPrimary {
+  background-color: #d5d5d5 !important;
+}
+
+.MuiLinearProgress-root {
+  margin-top: 20px !important;
+  border-radius: 5px !important;
+  height: 6px !important;
+}
+textarea {
+  border: none;
+  width: 90%;
+  border-radius: 10px;
+  box-shadow: 0 3px 2px rgb(0 0 0 / 16%), 0 3px 4px rgb(0 0 0 / 5%);
+  text-align: right;
+}
+#ck-button {
+  margin: 4px;
+  background-color: #fff;
+  border-radius: 4px;
+  /* border: 2px solid #fff; */
+  overflow: auto;
+  float: left;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 5%), 0 3px 3px rgb(0 0 0 / 3%);
+
+}
+#ck-button:hover {
+  margin: 4px;
+  background-color: #E6FAFF;
+  border-radius: 4px;
+  border: 1px solid #3a9db6;
+  overflow: none;
+  /* float: left; */
+  color: #67B7CA;
+}
+
+#ck-button label {
+  float: left;
+  width: 22em;
+}
+#ck-button label span {
+  text-align: center;
+  padding: 5px 0px;
+  display: block;
+}
+
+#ck-button label input {
+  position: absolute;
+  top: -20px;
+}
+
+#ck-button input:checked + span {
+  background-color: #E6FAFF;
+  border: 2px solid #3a9db6;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 5%), 0 3px 3px rgb(0 0 0 / 3%);
+  border-radius: 4px;
+
+}
