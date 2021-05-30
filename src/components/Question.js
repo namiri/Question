@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
@@ -82,7 +81,7 @@ export default function Question(props) {
     </>
   );
 }
-=======
+
 import React, { useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
@@ -158,11 +157,4 @@ export default function Question(props) {
     </>
   );
 }
->>>>>>> 58f239041c238ce60758f583aad88051c9091984
-     rows={6}
-          ></textarea>
-        </div>
-      )}
-    </>
-  );
-}
+

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import MobileStepper from "@material-ui/core/MobileStepper";
@@ -140,7 +139,7 @@ export default function Main() {
     </div>
   );
 }
-=======
+
 import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
 import MobileStepper from "@material-ui/core/MobileStepper";
@@ -281,4 +280,3 @@ export default function Main() {
     </div>
   );
 }
->>>>>>> 58f239041c238ce60758f583aad88051c9091984

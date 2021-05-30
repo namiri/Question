@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -50,7 +49,7 @@ export default function Start() {
     </>
   );
 }
-=======
+
 import React from "react";
 import Card from "@material-ui/core/Card";
 import CardContent from "@material-ui/core/CardContent";
@@ -102,4 +101,3 @@ export default function Start() {
     </>
   );
 }
->>>>>>> 58f239041c238ce60758f583aad88051c9091984
